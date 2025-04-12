@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+*.nosync
+
+sh.exe.stackdump
+
+*.log
+
+# npm
+package-lock.json
+node_modules
+
+dist/
+
+.cache/
+.asset-cache/
+.sass-cache/
+
+.knosys/sites/*/_data/knosys/
+.knosys/sites/*/_knosys/
+.knosys/sites/*/_assets/*/ksio/
+.knosys/sites/*/_site/
