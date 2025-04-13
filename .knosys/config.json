@@ -1,0 +1,9 @@
+{
+  "command": "./.knosys/scripts/command",
+  "site": {
+    "default": {
+      "alias": "jekyll-demo",
+      "generator": "jekyll"
+    }
+  }
+}

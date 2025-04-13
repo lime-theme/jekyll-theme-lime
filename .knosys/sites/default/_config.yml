@@ -161,7 +161,7 @@ ksio:
     navbar:
       placement: right
   footer:
-    partial: footer.html
+    # partial: footer.html
     links:
       - text: 关于
         url: /zh/about/

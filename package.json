@@ -1,0 +1,37 @@
+{
+  "name": "jekyll-theme-lime",
+  "version": "0.0.0",
+  "description": "Simple, readable, responsive theme for Jekyll",
+  "private": true,
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lime-theme/jekyll-theme-lime.git"
+  },
+  "author": "Ourai L. <ourairyu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lime-theme/jekyll-theme-lime/issues"
+  },
+  "homepage": "https://lime-theme.github.io",
+  "engines": {
+    "node": ">=14.15.3"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@knosys/sdk": "^0.0.3",
+    "@ntks/toolbox": "^0.0.6",
+    "dotenv": "^16.4.5",
+    "js-yaml": "4.1.0",
+    "ksio": "0.0.3"
+  },
+  "scripts": {
+    "copy": "node .knosys/scripts copy",
+    "build": "node .knosys/scripts generate",
+    "clean": "rm -rf .asset-cache .cache .knosys/sites/*/.asset-cache .knosys/sites/*/.cache",
+    "start": "node .knosys/scripts site serve",
+    "prerelease": "npm run clean",
+    "release": "node .knosys/scripts release"
+  }
+}
