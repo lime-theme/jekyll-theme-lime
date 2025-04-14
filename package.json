@@ -17,10 +17,9 @@
   "engines": {
     "node": ">=14.15.3"
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "@knosys/sdk": "^0.0.3",
+    "@lime-theme/lime": "0.0.0-alpha.1",
     "@ntks/toolbox": "^0.0.6",
     "dotenv": "^16.4.5",
     "js-yaml": "4.1.0",
